@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 10vh;
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;    
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #1d1e20;    
+}
+
+main{
+    width: 100vw;
+    min-height: 75vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 45px;
+    height: 40px;
+    border: 15px;
+    border-radius: 10px;
+}
+
+body,ul,li, p{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: 600 ;
+    font-family: cursive    ;
+    font-size: 30px;
+    color: azure;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.textarea{
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.botao{ 
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.footer{
+   
+    background: #1d1e20;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;   
+
+}
+
+#autor{
+    height: auto;
+    color: azure;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 720) {
+    main{
+        width: auto;
+        height: 50%;
+    }
+
+}
